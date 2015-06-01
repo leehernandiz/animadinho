@@ -1,0 +1,15 @@
+<plugin name='gwt' version='1.0.3' grailsVersion='2.0 &gt; *'>
+  <title>The Google Web Toolkit for Grails.</title>
+  <description>Incorporates GWT into Grails. In particular, GWT host pages can be
+GSPs and standard Grails services can be used to handle client RPC
+requests.
+</description>
+  <documentation>http://simplicityitself.github.com/grails-gwt/guide/</documentation>
+  <type>GwtGrailsPlugin</type>
+  <resources>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtUrlMappings</resource>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtController</resource>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtResourceMapper</resource>
+    <resource>org.codehaus.groovy.grails.plugins.gwt.GwtActionService</resource>
+  </resources>
+</plugin>
